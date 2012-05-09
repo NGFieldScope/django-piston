@@ -177,8 +177,6 @@ class Resource(object):
                 return rc.NOT_ACCEPTABLE
             em_format = self.default_emitter
 
-        kwargs.pop('emitter_format', None)
-
         # Clean up the request object a bit, since we might
         # very well have `oauth_`-headers in there, and we
         # don't want to pass these along to the handler.
