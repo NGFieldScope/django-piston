@@ -12,7 +12,7 @@ import os
 
 setup(
     name = "django-piston",
-    version = "0.2.4-mc-er-2",
+    version = "0.2.5-mc-eor",
     url = 'http://bitbucket.org/mattcaldwell/django-piston/wiki/Home',
 	download_url = 'http://bitbucket.org/mattcaldwell/django-piston/downloads/',
     license = 'BSD',
